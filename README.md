@@ -10,6 +10,8 @@
 
 ![HTS System Overview](docs/images/system_overview.png)
 
+> **Note**: Dashboard images have been updated, but other images in this README are currently placeholders. See the [dashboard screenshot guide](docs/dashboard_screenshot_guide.md) for details on dashboard images. The other system diagrams will be added in the future.
+
 ## Overview
 This project implements an advanced system for optimizing High-Temperature Superconductor (HTS) tape manufacturing processes. By leveraging machine learning techniques, principally Neural Fitted Q-Iteration with Artificial Neural Networks, we've achieved a 40% improvement in predictive accuracy and uniformity in HTS tape manufacturing.
 
@@ -72,7 +74,14 @@ The core of our optimization system uses Neural Fitted Q-Iteration (NFQ) with ar
 
 Our system includes a comprehensive real-time monitoring dashboard built with Dash and Plotly:
 
-![Dashboard](docs/images/dashboard.png)
+### Main Dashboard View
+<img src="docs/images/dashboard_main.png" alt="Dashboard Main View" width="100%" style="max-width: 1200px;">
+
+### Analytics Panel
+<img src="docs/images/dashboard_analytics.png" alt="Dashboard Analytics" width="100%" style="max-width: 1200px;">
+
+### Control Interface
+<img src="docs/images/dashboard_controls.png" alt="Dashboard Controls" width="100%" style="max-width: 1200px;">
 
 The dashboard provides:
 - Critical current measurements visualization
